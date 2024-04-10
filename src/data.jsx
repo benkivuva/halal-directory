@@ -1,0 +1,701 @@
+export const restaurantData = [{
+    "restaurant_name": "Twinte",
+    "city": "Houston",
+    "state": "Texas",
+    "zipcode": "77288",
+    "phone_number": "713-229-0355",
+    "rating": 5
+}, {
+    "restaurant_name": "Jabberstorm",
+    "city": "Hartford",
+    "state": "Connecticut",
+    "zipcode": "06152",
+    "phone_number": "860-228-0069",
+    "rating": 3
+}, {
+    "restaurant_name": "Gabspot",
+    "city": "Orlando",
+    "state": "Florida",
+    "zipcode": "32803",
+    "phone_number": "407-812-2092",
+    "rating": 3
+}, {
+    "restaurant_name": "Edgeblab",
+    "city": "Johnson City",
+    "state": "Tennessee",
+    "zipcode": "37605",
+    "phone_number": "423-732-4733",
+    "rating": 1
+}, {
+    "restaurant_name": "Topiczoom",
+    "city": "Los Angeles",
+    "state": "California",
+    "zipcode": "90035",
+    "phone_number": "818-803-7422",
+    "rating": 4
+}, {
+    "restaurant_name": "Twinte",
+    "city": "Lafayette",
+    "state": "Louisiana",
+    "zipcode": "70593",
+    "phone_number": "337-579-2493",
+    "rating": 5
+}, {
+    "restaurant_name": "Yata",
+    "city": "Champaign",
+    "state": "Illinois",
+    "zipcode": "61825",
+    "phone_number": "217-793-8379",
+    "rating": 5
+}, {
+    "restaurant_name": "Skynoodle",
+    "city": "Abilene",
+    "state": "Texas",
+    "zipcode": "79605",
+    "phone_number": "325-670-4192",
+    "rating": 5
+}, {
+    "restaurant_name": "Skyvu",
+    "city": "Greeley",
+    "state": "Colorado",
+    "zipcode": "80638",
+    "phone_number": "970-604-9244",
+    "rating": 2
+}, {
+    "restaurant_name": "Abatz",
+    "city": "San Bernardino",
+    "state": "California",
+    "zipcode": "92410",
+    "phone_number": "909-605-7801",
+    "rating": 2
+}, {
+    "restaurant_name": "Centimia",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33180",
+    "phone_number": "954-850-9490",
+    "rating": 1
+}, {
+    "restaurant_name": "Fiveclub",
+    "city": "Lexington",
+    "state": "Kentucky",
+    "zipcode": "40581",
+    "phone_number": "859-598-5485",
+    "rating": 4
+}, {
+    "restaurant_name": "Devshare",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33111",
+    "phone_number": "786-149-3492",
+    "rating": 3
+}, {
+    "restaurant_name": "Tagopia",
+    "city": "Orange",
+    "state": "California",
+    "zipcode": "92867",
+    "phone_number": "714-869-5619",
+    "rating": 2
+}, {
+    "restaurant_name": "Dablist",
+    "city": "Knoxville",
+    "state": "Tennessee",
+    "zipcode": "37919",
+    "phone_number": "865-645-7110",
+    "rating": 3
+}, {
+    "restaurant_name": "Feedspan",
+    "city": "South Lake Tahoe",
+    "state": "California",
+    "zipcode": "96154",
+    "phone_number": "530-802-2830",
+    "rating": 4
+}, {
+    "restaurant_name": "Kazio",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "zipcode": "76147",
+    "phone_number": "817-221-9577",
+    "rating": 3
+}, {
+    "restaurant_name": "Tazzy",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "zipcode": "64142",
+    "phone_number": "816-175-5565",
+    "rating": 1
+}, {
+    "restaurant_name": "Kwimbee",
+    "city": "Santa Barbara",
+    "state": "California",
+    "zipcode": "93106",
+    "phone_number": "805-911-1867",
+    "rating": 1
+}, {
+    "restaurant_name": "Roomm",
+    "city": "Columbia",
+    "state": "South Carolina",
+    "zipcode": "29240",
+    "phone_number": "803-916-1210",
+    "rating": 4
+}, {
+    "restaurant_name": "Kwinu",
+    "city": "San Diego",
+    "state": "California",
+    "zipcode": "92127",
+    "phone_number": "619-682-1441",
+    "rating": 3
+}, {
+    "restaurant_name": "Brainbox",
+    "city": "Little Rock",
+    "state": "Arkansas",
+    "zipcode": "72215",
+    "phone_number": "501-328-9047",
+    "rating": 3
+}, {
+    "restaurant_name": "Thoughtmix",
+    "city": "Ogden",
+    "state": "Utah",
+    "zipcode": "84409",
+    "phone_number": "801-264-6657",
+    "rating": 3
+}, {
+    "restaurant_name": "Divanoodle",
+    "city": "Dayton",
+    "state": "Ohio",
+    "zipcode": "45432",
+    "phone_number": "937-254-0446",
+    "rating": 2
+}, {
+    "restaurant_name": "Jaxspan",
+    "city": "Midland",
+    "state": "Texas",
+    "zipcode": "79710",
+    "phone_number": "432-295-4057",
+    "rating": 3
+}, {
+    "restaurant_name": "Buzzdog",
+    "city": "Round Rock",
+    "state": "Texas",
+    "zipcode": "78682",
+    "phone_number": "512-322-5531",
+    "rating": 4
+}, {
+    "restaurant_name": "Edgeblab",
+    "city": "Midland",
+    "state": "Texas",
+    "zipcode": "79710",
+    "phone_number": "432-413-9998",
+    "rating": 1
+}, {
+    "restaurant_name": "Agimba",
+    "city": "Round Rock",
+    "state": "Texas",
+    "zipcode": "78682",
+    "phone_number": "512-343-0023",
+    "rating": 2
+}, {
+    "restaurant_name": "Jaloo",
+    "city": "Denver",
+    "state": "Colorado",
+    "zipcode": "80204",
+    "phone_number": "303-859-3867",
+    "rating": 5
+}, {
+    "restaurant_name": "Mydeo",
+    "city": "Fullerton",
+    "state": "California",
+    "zipcode": "92835",
+    "phone_number": "714-572-8900",
+    "rating": 1
+}, {
+    "restaurant_name": "Roodel",
+    "city": "Austin",
+    "state": "Texas",
+    "zipcode": "78783",
+    "phone_number": "512-799-1646",
+    "rating": 2
+}, {
+    "restaurant_name": "Devpulse",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "zipcode": "44185",
+    "phone_number": "216-268-8696",
+    "rating": 3
+}, {
+    "restaurant_name": "Babblestorm",
+    "city": "Tulsa",
+    "state": "Oklahoma",
+    "zipcode": "74108",
+    "phone_number": "918-125-4965",
+    "rating": 2
+}, {
+    "restaurant_name": "Twinder",
+    "city": "Cedar Rapids",
+    "state": "Iowa",
+    "zipcode": "52410",
+    "phone_number": "319-336-0750",
+    "rating": 3
+}, {
+    "restaurant_name": "Ooba",
+    "city": "Brooklyn",
+    "state": "New York",
+    "zipcode": "11231",
+    "phone_number": "718-632-7207",
+    "rating": 3
+}, {
+    "restaurant_name": "Gevee",
+    "city": "Ridgely",
+    "state": "Maryland",
+    "zipcode": "21684",
+    "phone_number": "410-594-3954",
+    "rating": 1
+}, {
+    "restaurant_name": "Jabbersphere",
+    "city": "Dayton",
+    "state": "Ohio",
+    "zipcode": "45408",
+    "phone_number": "937-874-4734",
+    "rating": 2
+}, {
+    "restaurant_name": "Kwimbee",
+    "city": "Newport Beach",
+    "state": "California",
+    "zipcode": "92662",
+    "phone_number": "714-381-6738",
+    "rating": 3
+}, {
+    "restaurant_name": "Dablist",
+    "city": "Dallas",
+    "state": "Texas",
+    "zipcode": "75387",
+    "phone_number": "214-167-4465",
+    "rating": 5
+}, {
+    "restaurant_name": "Zooveo",
+    "city": "Los Angeles",
+    "state": "California",
+    "zipcode": "90071",
+    "phone_number": "424-568-8122",
+    "rating": 1
+}, {
+    "restaurant_name": "Tagcat",
+    "city": "Fairfax",
+    "state": "Virginia",
+    "zipcode": "22036",
+    "phone_number": "571-837-5729",
+    "rating": 4
+}, {
+    "restaurant_name": "Agimba",
+    "city": "Greensboro",
+    "state": "North Carolina",
+    "zipcode": "27455",
+    "phone_number": "336-753-1112",
+    "rating": 2
+}, {
+    "restaurant_name": "Tanoodle",
+    "city": "El Paso",
+    "state": "Texas",
+    "zipcode": "88530",
+    "phone_number": "915-791-6358",
+    "rating": 5
+}, {
+    "restaurant_name": "Bubblebox",
+    "city": "Green Bay",
+    "state": "Wisconsin",
+    "zipcode": "54305",
+    "phone_number": "920-392-5586",
+    "rating": 3
+}, {
+    "restaurant_name": "Realbridge",
+    "city": "Durham",
+    "state": "North Carolina",
+    "zipcode": "27705",
+    "phone_number": "434-636-2270",
+    "rating": 2
+}, {
+    "restaurant_name": "Talane",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "31119",
+    "phone_number": "770-498-1919",
+    "rating": 5
+}, {
+    "restaurant_name": "Jaxworks",
+    "city": "Des Moines",
+    "state": "Iowa",
+    "zipcode": "50347",
+    "phone_number": "515-824-5722",
+    "rating": 1
+}, {
+    "restaurant_name": "Skilith",
+    "city": "El Paso",
+    "state": "Texas",
+    "zipcode": "88553",
+    "phone_number": "915-217-3468",
+    "rating": 5
+}, {
+    "restaurant_name": "Babbleopia",
+    "city": "Sacramento",
+    "state": "California",
+    "zipcode": "95818",
+    "phone_number": "916-559-8151",
+    "rating": 5
+}, {
+    "restaurant_name": "Youtags",
+    "city": "San Diego",
+    "state": "California",
+    "zipcode": "92127",
+    "phone_number": "858-185-7929",
+    "rating": 1
+}, {
+    "restaurant_name": "Youspan",
+    "city": "San Diego",
+    "state": "California",
+    "zipcode": "92105",
+    "phone_number": "858-582-9012",
+    "rating": 1
+}, {
+    "restaurant_name": "Chatterbridge",
+    "city": "Arlington",
+    "state": "Virginia",
+    "zipcode": "22225",
+    "phone_number": "571-511-0672",
+    "rating": 3
+}, {
+    "restaurant_name": "Gabtune",
+    "city": "Lincoln",
+    "state": "Nebraska",
+    "zipcode": "68583",
+    "phone_number": "402-306-1663",
+    "rating": 1
+}, {
+    "restaurant_name": "Aimbo",
+    "city": "Gatesville",
+    "state": "Texas",
+    "zipcode": "76598",
+    "phone_number": "254-272-3791",
+    "rating": 1
+}, {
+    "restaurant_name": "Zoomdog",
+    "city": "Irving",
+    "state": "Texas",
+    "zipcode": "75062",
+    "phone_number": "469-518-5691",
+    "rating": 4
+}, {
+    "restaurant_name": "Yabox",
+    "city": "Spokane",
+    "state": "Washington",
+    "zipcode": "99215",
+    "phone_number": "509-415-1698",
+    "rating": 4
+}, {
+    "restaurant_name": "Riffwire",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "zipcode": "20036",
+    "phone_number": "202-448-0102",
+    "rating": 3
+}, {
+    "restaurant_name": "Yata",
+    "city": "Arlington",
+    "state": "Virginia",
+    "zipcode": "22234",
+    "phone_number": "571-773-9408",
+    "rating": 5
+}, {
+    "restaurant_name": "Rhyzio",
+    "city": "Los Angeles",
+    "state": "California",
+    "zipcode": "90040",
+    "phone_number": "310-670-9694",
+    "rating": 5
+}, {
+    "restaurant_name": "Aivee",
+    "city": "Chesapeake",
+    "state": "Virginia",
+    "zipcode": "23324",
+    "phone_number": "757-649-8814",
+    "rating": 2
+}, {
+    "restaurant_name": "Demimbu",
+    "city": "Roanoke",
+    "state": "Virginia",
+    "zipcode": "24004",
+    "phone_number": "540-978-0796",
+    "rating": 3
+}, {
+    "restaurant_name": "Viva",
+    "city": "Valley Forge",
+    "state": "Pennsylvania",
+    "zipcode": "19495",
+    "phone_number": "484-449-4867",
+    "rating": 2
+}, {
+    "restaurant_name": "Plambee",
+    "city": "Akron",
+    "state": "Ohio",
+    "zipcode": "44321",
+    "phone_number": "330-736-4073",
+    "rating": 3
+}, {
+    "restaurant_name": "Pixonyx",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "zipcode": "27615",
+    "phone_number": "919-416-0033",
+    "rating": 4
+}, {
+    "restaurant_name": "Brainsphere",
+    "city": "Baton Rouge",
+    "state": "Louisiana",
+    "zipcode": "70810",
+    "phone_number": "225-189-1132",
+    "rating": 1
+}, {
+    "restaurant_name": "Zava",
+    "city": "Reno",
+    "state": "Nevada",
+    "zipcode": "89505",
+    "phone_number": "775-751-5826",
+    "rating": 2
+}, {
+    "restaurant_name": "Rhycero",
+    "city": "Brooksville",
+    "state": "Florida",
+    "zipcode": "34605",
+    "phone_number": "352-850-6350",
+    "rating": 2
+}, {
+    "restaurant_name": "Voonder",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "zipcode": "37245",
+    "phone_number": "615-192-9751",
+    "rating": 1
+}, {
+    "restaurant_name": "Eidel",
+    "city": "Reno",
+    "state": "Nevada",
+    "zipcode": "89505",
+    "phone_number": "775-822-8258",
+    "rating": 2
+}, {
+    "restaurant_name": "Zoonoodle",
+    "city": "Little Rock",
+    "state": "Arkansas",
+    "zipcode": "72215",
+    "phone_number": "501-560-5603",
+    "rating": 4
+}, {
+    "restaurant_name": "Tagtune",
+    "city": "Miami",
+    "state": "Florida",
+    "zipcode": "33185",
+    "phone_number": "305-158-5866",
+    "rating": 2
+}, {
+    "restaurant_name": "Brainverse",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "zipcode": "53215",
+    "phone_number": "414-150-6793",
+    "rating": 1
+}, {
+    "restaurant_name": "Browseblab",
+    "city": "San Antonio",
+    "state": "Texas",
+    "zipcode": "78215",
+    "phone_number": "210-208-2243",
+    "rating": 3
+}, {
+    "restaurant_name": "Flashpoint",
+    "city": "Los Angeles",
+    "state": "California",
+    "zipcode": "90076",
+    "phone_number": "323-969-0222",
+    "rating": 1
+}, {
+    "restaurant_name": "Voonyx",
+    "city": "Mansfield",
+    "state": "Ohio",
+    "zipcode": "44905",
+    "phone_number": "419-314-1908",
+    "rating": 3
+}, {
+    "restaurant_name": "Kanoodle",
+    "city": "Long Beach",
+    "state": "California",
+    "zipcode": "90840",
+    "phone_number": "562-413-4360",
+    "rating": 4
+}, {
+    "restaurant_name": "Flashpoint",
+    "city": "Fort Wayne",
+    "state": "Indiana",
+    "zipcode": "46857",
+    "phone_number": "260-531-8411",
+    "rating": 2
+}, {
+    "restaurant_name": "Tagtune",
+    "city": "Columbus",
+    "state": "Ohio",
+    "zipcode": "43226",
+    "phone_number": "614-153-2041",
+    "rating": 5
+}, {
+    "restaurant_name": "Linkbuzz",
+    "city": "El Paso",
+    "state": "Texas",
+    "zipcode": "79989",
+    "phone_number": "915-259-1629",
+    "rating": 5
+}, {
+    "restaurant_name": "Kwinu",
+    "city": "Alexandria",
+    "state": "Virginia",
+    "zipcode": "22333",
+    "phone_number": "571-216-9924",
+    "rating": 2
+}, {
+    "restaurant_name": "Browseblab",
+    "city": "Fort Myers",
+    "state": "Florida",
+    "zipcode": "33994",
+    "phone_number": "239-750-0335",
+    "rating": 3
+}, {
+    "restaurant_name": "Dynazzy",
+    "city": "Tampa",
+    "state": "Florida",
+    "zipcode": "33610",
+    "phone_number": "813-332-0748",
+    "rating": 2
+}, {
+    "restaurant_name": "Fliptune",
+    "city": "Boulder",
+    "state": "Colorado",
+    "zipcode": "80328",
+    "phone_number": "303-494-1759",
+    "rating": 1
+}, {
+    "restaurant_name": "DabZ",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zipcode": "23277",
+    "phone_number": "804-690-3492",
+    "rating": 5
+}, {
+    "restaurant_name": "Cogilith",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "zipcode": "27658",
+    "phone_number": "919-594-7553",
+    "rating": 5
+}, {
+    "restaurant_name": "Livepath",
+    "city": "Louisville",
+    "state": "Kentucky",
+    "zipcode": "40298",
+    "phone_number": "502-367-1900",
+    "rating": 3
+}, {
+    "restaurant_name": "Zava",
+    "city": "Alexandria",
+    "state": "Louisiana",
+    "zipcode": "71307",
+    "phone_number": "318-682-1295",
+    "rating": 2
+}, {
+    "restaurant_name": "Zoombeat",
+    "city": "Warren",
+    "state": "Michigan",
+    "zipcode": "48092",
+    "phone_number": "586-924-5840",
+    "rating": 3
+}, {
+    "restaurant_name": "Yadel",
+    "city": "Amarillo",
+    "state": "Texas",
+    "zipcode": "79171",
+    "phone_number": "806-416-7860",
+    "rating": 2
+}, {
+    "restaurant_name": "Realbuzz",
+    "city": "Wichita Falls",
+    "state": "Texas",
+    "zipcode": "76305",
+    "phone_number": "940-140-3562",
+    "rating": 1
+}, {
+    "restaurant_name": "Jabbersphere",
+    "city": "El Paso",
+    "state": "Texas",
+    "zipcode": "88530",
+    "phone_number": "915-207-1847",
+    "rating": 3
+}, {
+    "restaurant_name": "Meejo",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "zipcode": "73190",
+    "phone_number": "405-449-2097",
+    "rating": 5
+}, {
+    "restaurant_name": "Demimbu",
+    "city": "Peoria",
+    "state": "Illinois",
+    "zipcode": "61635",
+    "phone_number": "309-230-4176",
+    "rating": 2
+}, {
+    "restaurant_name": "Feedbug",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "zipcode": "53220",
+    "phone_number": "414-156-7944",
+    "rating": 2
+}, {
+    "restaurant_name": "Dazzlesphere",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "zipcode": "84189",
+    "phone_number": "801-329-3973",
+    "rating": 5
+}, {
+    "restaurant_name": "Skimia",
+    "city": "Gulfport",
+    "state": "Mississippi",
+    "zipcode": "39505",
+    "phone_number": "228-102-7130",
+    "rating": 4
+}, {
+    "restaurant_name": "Devcast",
+    "city": "El Paso",
+    "state": "Texas",
+    "zipcode": "88535",
+    "phone_number": "915-137-7842",
+    "rating": 2
+}, {
+    "restaurant_name": "Trudoo",
+    "city": "Las Cruces",
+    "state": "New Mexico",
+    "zipcode": "88006",
+    "phone_number": "505-563-4239",
+    "rating": 2
+}, {
+    "restaurant_name": "Kamba",
+    "city": "Indianapolis",
+    "state": "Indiana",
+    "zipcode": "46239",
+    "phone_number": "317-185-2583",
+    "rating": 2
+}, {
+    "restaurant_name": "Skivee",
+    "city": "Monroe",
+    "state": "Louisiana",
+    "zipcode": "71213",
+    "phone_number": "318-273-3434",
+    "rating": 3
+}]
