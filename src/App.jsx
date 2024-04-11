@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import SearchBar from './SearchBar';
-import RestaurantCard from './RestaurantCard';
-import Pagination from './Pagination';
-import Header from './Header';
-import Footer from './Footer';
-import NavigationBar from './NavigationBar';
+import SearchBar from './components/SearchBar';
+import RestaurantCard from './components/RestaurantCard';
+import Pagination from './components/Pagination';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,7 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState([]);
   const resultsPerPage = 20;
-  const apiUrl = 'http://localhost:5000/api/data';
+  const apiUrl = 'https://halal-api-v78o.onrender.com/api/data';
 
   useEffect(() => {
     fetchData();
@@ -27,20 +27,19 @@ function App() {
       }
       const responseData = await response.json();
       setData(responseData);
-      setSearchResults(responseData); // Set search results to full dataset initially
+      setSearchResults(responseData);
     } catch (error) {
       console.error('Error fetching data:', error);
-      // Handle error (e.g., display error message to the user)
     }
   };
 
   const handleSearchInputChange = (event) => {
     const query = event.target.value.toLowerCase().trim();
     setSearchQuery(query);
-    setCurrentPage(1); // Reset current page when searching
+    setCurrentPage(1);
 
     if (query === '') {
-      setSearchResults(data); // Reset search results to full dataset
+      setSearchResults(data);
       return;
     }
 

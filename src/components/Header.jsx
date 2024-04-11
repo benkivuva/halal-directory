@@ -1,6 +1,6 @@
 // Header.jsx
 import React from 'react';
-import logo from './logo.jpg'; // Import your logo image
+import logo from './logo.jpg';
 
 const Header = () => {
     return (

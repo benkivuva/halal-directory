@@ -8,7 +8,7 @@ const NavigationBar = () => {
                 <ul className="flex space-x-4">
                     <li><a href="#home" className="hover:text-gray-300">Home</a></li>
                     <li><a href="#about" className="hover:text-gray-300">About</a></li>
-                    {/* Add more navigation links here */}
+                    { }
                 </ul>
             </div>
         </nav>
