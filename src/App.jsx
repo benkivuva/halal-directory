@@ -63,15 +63,17 @@ function App() {
   const currentResults = searchResults.slice(indexOfFirstResult, indexOfLastResult);
 
   return (
-    <div className="App">
+    <div className="App flex flex-col min-h-screen bg-gradient-to-br from-gray-400 to-gray-900">
       <Header />
       <NavigationBar />
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Halal Restaurant Directory</h1>
+      <div className="container mx-auto px-4 py-8 flex-grow">
+        <h1 className="text-3xl font-bold text-center mb-8 text-white">Halal Restaurant Directory</h1>
         <SearchBar value={searchQuery} onChange={handleSearchInputChange} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {currentResults.map((restaurant) => (
-            <RestaurantCard key={restaurant.id} restaurant={restaurant} />
+            <div key={restaurant.id} className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+              <RestaurantCard restaurant={restaurant} />
+            </div>
           ))}
         </div>
         <Pagination
